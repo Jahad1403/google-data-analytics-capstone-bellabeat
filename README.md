@@ -1,48 +1,21 @@
-# 📊 Google Data Analytics Capstone Project – Cyclistic Case Study
+# 🚲 Cyclistic Bike-Share Case Study
 
-This project was completed as part of the **Google Data Analytics Professional Certificate**. The objective is to analyze data from a bike-share company and generate insights to help improve its marketing strategy.
-
----
-
-## 🧰 Tools Used
-
-| Tool           | Purpose                                      |
-|----------------|----------------------------------------------|
-| Excel          | Initial data inspection                      |
-| PostgreSQL     | Data cleaning, transformation, and analysis  |
-| Power BI       | Interactive dashboards and visual exploration|
+## 📖 Introduction
+This project is part of the **Google Data Analytics Professional Certificate** on Coursera.  
+It analyzes **Cyclistic bike-share data** (May 2024 – April 2025) to provide insights for **marketing strategy**, focusing on converting casual riders into annual members.
 
 ---
 
-## 📁 Dataset Overview
-
-The dataset includes 12 `.csv` files containing ride details from **May 2024 to April 2025**. Each file includes trip start and end times, stations, rideable types, and user types (member vs casual).
-
----
-
-## 🔍 Initial Steps
-
-1. **Excel Data Review**
-   - Checked for nulls, duplicates, and unusual values
-   - Verified column formats and consistency
-   - Merged all monthly data into a single dataset
-
-2. **PostgreSQL Cleaning & Preparation**
-   - Loaded data into PostgreSQL
-   - Removed trips with missing IDs or negative durations
-   - Created new columns:
-     - `ride_minutes` (trip duration in minutes)
-     - `hour_of_day`, `day_of_week`, `month`
-   - Replaced null values and standardized user types
-
-3. **Power BI Visualization**
-   - Connected PostgreSQL to Power BI
-   - Built interactive visual dashboards to explore:
-     - Number of rides by user type and time
-     - Average trip duration
-     - Most common start/end stations
-     - Ride trends by weekday and month
+## 🏙 Scenario
+You are a **junior data analyst** at Cyclistic, a Chicago-based bike-sharing company.  
+The **marketing director** wants to **maximize annual memberships**.  
+Your task: understand the differences between **casual riders** and **annual members** to improve marketing campaigns.
 
 ---
 
-
+## 📂 Project Structure
+## 🧹 1️⃣ Data Collection & Initial Review
+- **Step 1:** Downloaded CSV files for all rides (May 2024 – Apr 2025)  
+- **Step 2:** Converted CSVs to Excel for easier review.  
+- **Step 3:** Checked for **empty cells, duplicates, and formatting issues**.  
+- **Step 4:** Merged all monthly files into a single file.
